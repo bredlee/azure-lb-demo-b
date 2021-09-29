@@ -16,7 +16,7 @@ resource "azurerm_network_security_group" "mynsg" {
     }
         security_rule {
         name                       = "SSH-Admin"
-        priority                   = 1001
+        priority                   = 1002
         direction                  = "Inbound"
         access                     = "Allow"
         protocol                   = "Tcp"
